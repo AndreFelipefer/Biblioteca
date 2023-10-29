@@ -28,14 +28,33 @@ Obs: Adicionado coluna estoque manual pois não consta na aba tabelas esta colun
 alter table livro add estoque int;
 ````
 
+<hr>
+
+```SQL
+CALL RegistrarEmprestimo(1, 1, '2023-10-29', '2023-11-29');
+
+````
 ### Crie outra stored procedure para recuperar a lista de livros emprestados por um cliente específico.
+```SQL
+CALL ListaLivrosEmprestadosPorCliente(1);
+```
 
 ### Implemente uma stored procedure que calcule multas para empréstimos atrasados.
+```SQL
+CALL CalcularMultas();
+```
 
 <hr>
 
 ## Views:
 
 ### Crie uma view que mostre os livros disponíveis para empréstimo, excluindo aqueles que já foram emprestados.
+```SQL
+SELECT * FROM LivrosDisponiveis;
+```
 
 ### Implemente uma view que forneça uma lista de todos os empréstimos atuais, incluindo os detalhes dos livros emprestados e dos clientes.
+```SQL
+SELECT * FROM EmpréstimosAtuais;
+```
+## FIM 
