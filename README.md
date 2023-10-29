@@ -1,7 +1,12 @@
-Trigger <h1 align="center"> Biblioteca </h1>
+
+
+
+
+
+<h1 align="center"> Biblioteca </h1>
 
 ## O objetivo deste exercício é criar um sistema de biblioteca usando SQL Server. O sistema deverá ser capaz de gerenciar empréstimos de livros, incluindo a verificação de disponibilidade, o registro de novos empréstimos, o cálculo de multas e a recuperação de informações sobre empréstimos atuais.
-![image](https://github.com/AndreFelipefer/Biblioteca/assets/129207232/a27c901d-8b72-4983-8d16-e7cda1c00000)
+![image](https://github.com/AndreFelipefer/Biblioteca/assets/129207232/4a41120e-1fdc-4dc5-b5c8-e9232d1840c9)
 
 <hr>
 ### Livros: Armazene informações sobre cada livro, incluindo título, ISBN, ano de publicação e um identificador exclusivo.
@@ -27,7 +32,7 @@ Obs: Adicionado coluna estoque manual pois não consta na aba tabelas esta colun
 ```SQL
 alter table livro add estoque int;
 ````
-
+[RegistrarEmprestimos.txt](https://github.com/AndreFelipefer/Biblioteca/files/13198740/RegistrarEmprestimos.txt)
 <hr>
 
 ```SQL
@@ -38,11 +43,13 @@ CALL RegistrarEmprestimo(1, 1, '2023-10-29', '2023-11-29');
 ```SQL
 CALL ListaLivrosEmprestadosPorCliente(1);
 ```
+[ListaLivros.txt](https://github.com/AndreFelipefer/Biblioteca/files/13198739/ListaLivros.txt)
 
 ### Implemente uma stored procedure que calcule multas para empréstimos atrasados.
 ```SQL
 CALL CalcularMultas();
 ```
+[CalcularMultas.txt](https://github.com/AndreFelipefer/Biblioteca/files/13198738/CalcularMultas.txt)
 
 <hr>
 
@@ -52,9 +59,12 @@ CALL CalcularMultas();
 ```SQL
 SELECT * FROM LivrosDisponiveis;
 ```
+[CREATE VIEW LivrosDisponiveis AS.txt](https://github.com/AndreFelipefer/Biblioteca/files/13198736/CREATE.VIEW.LivrosDisponiveis.AS.txt)
 
 ### Implemente uma view que forneça uma lista de todos os empréstimos atuais, incluindo os detalhes dos livros emprestados e dos clientes.
 ```SQL
 SELECT * FROM EmpréstimosAtuais;
 ```
+[CREATE VIEW EmpréstimosAtuais AS.txt](https://github.com/AndreFelipefer/Biblioteca/files/13198734/CREATE.VIEW.EmprestimosAtuais.AS.txt)
+
 ## FIM 
