@@ -1,0 +1,22 @@
+insert into editoras (nomeEditora, enderecoEditora) 
+values
+('Companhia das Letras', 'Rua Henrique Schaumann, 250, Pinheiros, São Paulo - SP, 05415-010'),
+('Editora Record', 'Avenida Paulista, 1909, Bela Vista, São Paulo - SP, 01311-904'),
+('Editora Rocco', 'Rua Augusta, 1501, Cerqueira César, São Paulo - SP, 01304-001'),
+('Editora Planeta', 'Avenida Paulista, 1578, Bela Vista, São Paulo - SP, 01311-901'),
+('Editora Saraiva', 'Rua São Bento, 405, Centro, São Paulo - SP, 01027-900'),
+('Editora Abril', 'Avenida Paulista, 1909, Bela Vista, São Paulo - SP, 01311-904'),
+('Editora Globo', 'Rua da Penha, 126, Penha, São Paulo - SP, 03105-000'),
+('Editora Nova Fronteira', 'Rua Haddock Lobo, 380, Jardim Paulista, São Paulo - SP, 01453-000'),
+('Editora Leya', 'Rua da Consolação, 3001, Jardim Paulista, São Paulo - SP, 01416-001'),
+('Editora Peirópolis', 'Rua da Consolação, 2362, Jardim Paulista, São Paulo - SP, 01416-000'),
+('Editora Hedra', 'Rua dos Pinheiros, 737, Pinheiros, São Paulo - SP, 05416-000'),
+('Editora Moderna', 'Rua São Bento, 417, Centro, São Paulo - SP, 01027-900'),
+('Editora Pensamento', 'Rua São Bento, 407, Centro, São Paulo - SP, 01027-900'),
+('Editora Ática', 'Avenida Paulista, 1909, Bela Vista, São Paulo - SP, 01311-904'),
+('Editora Manole', 'Rua do Bosque, 1000, São Paulo - SP, 04578-000'),
+('Editora Senac', 'Rua Dona Antônia de Castilho, 100, Liberdade, São Paulo - SP, 01521-000'),
+('Editora Cultura', 'Rua do Bosque, 1000, São Paulo - SP, 04578-000'),
+('Editora Nobel', 'Rua da Consolação, 2500, Jardim Paulista, São Paulo - SP, 01416-000'),
+('Editora L&PM', 'Rua da Consolação, 1501, Cerqueira César, São Paulo - SP, 01304-001'),
+('Editora Intrínseca', 'Rua Augusta, 1501, Cerqueira César, São Paulo - SP, 01304-001');

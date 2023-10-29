@@ -1,0 +1,22 @@
+insert into livro (titulo, ISBN, anoPublicacao, Autores_idAutores, Emprestimos_idEmprestimos, Emprestimos_Clientes_idClientes, Editoras_idEditoras, estoque)
+values
+('O Pequeno Príncipe', 'ISBN-1', '1943-01-01', 1, 1, 1, 1, 10),
+('Grande Sertão: Veredas', 'ISBN-2', '1956-01-01', 3, 2, 2, 2, 5),
+('Memórias Póstumas de Brás Cubas', 'ISBN-3', '1881-01-01', 4, 3, 3, 3, 8),
+('Dom Casmurro', 'ISBN-4', '1899-01-01', 4, 4, 4, 4, 12),
+('O Alienista', 'ISBN-5', '1882-01-01', 4, 5, 5, 5, 7),
+('Quincas Borba', 'ISBN-6', '1891-01-01', 4, 6, 6, 6, 6),
+('Vidas Secas', 'ISBN-7', '1938-01-01', 6, 7, 7, 7, 9),
+('O Tempo e o Vento', 'ISBN-8', '1949-01-01', 8, 8, 8, 8, 11),
+('Mayombe', 'ISBN-9', '1972-01-01', 9, 9, 9, 9, 3),
+('O Guarani', 'ISBN-10', '1857-01-01', 9, 10, 10, 10, 15),
+('Iracema', 'ISBN-11', '1865-01-01', 9, 11, 11, 11, 20),
+('A Escrava Isaura', 'ISBN-12', '1875-01-01', 9, 12, 12, 12, 18),
+('O Cortiço', 'ISBN-13', '1890-01-01', 10, 13, 13, 13, 14),
+('Vontade', 'ISBN-14', '1937-01-01', 11, 14, 14, 14, 4),
+('Os Sertões', 'ISBN-15', '1902-01-01', 12, 15, 15, 15, 6),
+('Sagarana', 'ISBN-16', '1946-01-01', 4, 16, 16, 16, 7),
+('Grande Sertão: Veredas', 'ISBN-17', '1956-01-01', 3, 17, 17, 17, 5),
+('O Grande Gatsby', 'ISBN-18', '1925-01-01', 18, 18, 18, 18, 10),
+('O Senhor dos Anéis', 'ISBN-19', '1954-01-01', 19, 19, 19, 19, 10),
+('Harry Potter e a Pedra Filosofal', 'ISBN-20', '1997-01-01', 20, 20, 20, 20, 10);
